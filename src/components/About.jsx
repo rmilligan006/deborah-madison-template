@@ -5,17 +5,16 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className=" w-full md:h-screen p-2 flex items-center py-6">
-        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-2">
+      <div className=" w-screen md:h-screen  flex items-center justify-start">
+        <div className="max-w-[1000px] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2">
-            <img
-              src={mainPic}
-              alt=""
-              className="rounded-xl mt-24 md:ml-1 sm:ml-3 w-[650px]"
-            />
+            <img src={mainPic} alt="" className="pt-28 w-[650px]" />
+            <p className="text-xs text-end mr-6 font-thin">
+              Photo by Christopher Hirsheimer
+            </p>
           </div>
-          <div>
-            <p className="mt-20">
+          <div className="text-start pl1">
+            <p className="py-28 text-sm font-light sm:m-2">
               Deborah Madison is the award-winning author of fourteen cookbooks,
               including The New Vegetarian Cooking for Everyone and Vegetable
               Literacy. Her books have received four lames Beard Foundation Book

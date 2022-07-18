@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Books = () => {
-  return <div></div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };
 
 export default Books;

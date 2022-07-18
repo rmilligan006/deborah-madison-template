@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../Assets/Logo/Madison-logo.svg";
-import books from "../Assets/Icons/ic_books4.svg";
-import calendar from "../Assets/Icons/ic_calendar.svg";
-import contact from "../Assets/Icons/ic_contact.svg";
+import logo from "../../Assets/Logo/Madison-logo-Calendar.png";
+import books from "../../Assets/Icons/ic_books4.svg";
+import calendar from "../../Assets/Icons/ic_calendar.svg";
+import contact from "../../Assets/Icons/ic_contact.svg";
 import { BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="absolute top-0 z-50 w-full h-[50px] flex flex-row justify-around items-center p-20">
+    <div className="absolute top-0 z-50 w-full h-[50px] flex flex-row justify-around items-center p-20 bg-[#857B6A]">
       <a href="/">
         <img
           src={logo}
